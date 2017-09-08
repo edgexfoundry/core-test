@@ -61,4 +61,14 @@ public interface EventData {
     }
   }
 
+  static void checkTestDataWithoutReadings(Event event, String id) {
+    assertEquals("ID doesn't match expected event id. Expected " + id + " got " + event.getId(), id,
+        event.getId());
+    assertEquals("Event device does not match saved device. Expected " + EventData.TEST_DEVICE_ID + " got "
+        + event.getDevice(), EventData.TEST_DEVICE_ID, event.getDevice());
+    assertEquals("Event origin does not match saved origin. Expected " + CommonData.TEST_ORIGIN + " got "
+        + event.getOrigin(), CommonData.TEST_ORIGIN, event.getOrigin());
+    assertNotNull("Event modified date is null", event.getModified());
+    assertNotNull("Event create date is null", event.getCreated());
+  }
 }
