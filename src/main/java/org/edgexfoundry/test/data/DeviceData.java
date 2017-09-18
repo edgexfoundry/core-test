@@ -24,7 +24,6 @@ import static org.junit.Assert.assertNotNull;
 
 import org.edgexfoundry.domain.meta.AdminState;
 import org.edgexfoundry.domain.meta.Device;
-import org.edgexfoundry.domain.meta.DeviceManager;
 import org.edgexfoundry.domain.meta.OperatingState;
 
 public interface DeviceData {
@@ -40,26 +39,6 @@ public interface DeviceData {
 
   static Device newTestInstance() {
     Device d = new Device();
-    d.setAdminState(TEST_ADMIN);
-    d.setDescription(TEST_DESCRIPTION);
-    d.setLabels(TEST_LABELS);
-    d.setLastConnected(TEST_LAST_CONNECTED);
-    d.setLastReported(TEST_LAST_REPORTED);
-    d.setLocation(TEST_LOCATION);
-    d.setName(TEST_NAME);
-    d.setOperatingState(TEST_OP);
-    d.setOrigin(CommonData.TEST_ORIGIN);
-    return d;
-  }
-
-  // TODO - remove when all other references are removed
-  /**
-   * @deprecated (functionality on Device Manager never completed)
-   * @return
-   */
-  @Deprecated
-  static DeviceManager newDeviceMgrInstance() {
-    DeviceManager d = new DeviceManager();
     d.setAdminState(TEST_ADMIN);
     d.setDescription(TEST_DESCRIPTION);
     d.setLabels(TEST_LABELS);
