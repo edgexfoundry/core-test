@@ -1,7 +1,7 @@
-#v0.2 (10/20/2017)
-#Release Notes
+# v0.2 (10/20/2017)
+# Release Notes
 
-##Notable Changes
+## Notable Changes
 The Barcelona Release (v 0.2) of the Core Test library includes the following:
 * Application of Google Style Guidelines to the code base
 * POM changes for appropriate repository information for distribution/repos management, checkstyle plugins, etc.
@@ -9,10 +9,10 @@ The Barcelona Release (v 0.2) of the Core Test library includes the following:
 * Addition of "requires" annotations (consul, logging) for integration tests
 * Added data elements for additional event data for testing
 
-##Bug Fixes
+## Bug Fixes
 * None
 
-##Pull Request/Commit Details
+## Pull Request/Commit Details
  - [#11](https://github.com/edgexfoundry/core-test/pull/11) - Remove staging plugin contributed by Jeremy Phelps ([JPWKU](https://github.com/JPWKU))
  - [#10](https://github.com/edgexfoundry/core-test/pull/10) - added staging and snapshots repos to pom along with nexus staging mav… contributed by Jim White ([jpwhitemn](https://github.com/jpwhitemn))
  - [#9](https://github.com/edgexfoundry/core-test/pull/9) - Removed DeviceManager now that all references have been removed contributed by Jim White ([jpwhitemn](https://github.com/jpwhitemn))
