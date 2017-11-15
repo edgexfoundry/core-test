@@ -21,14 +21,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.edgexfoundry</groupId>
   <artifactId>core-test</artifactId>
-  <version>0.2.0-SNAPSHOT</version>
+  <version>0.5.0-SNAPSHOT</version>
   <name>EdgeX Foundry Core Test Library</name>
   <description>EdgeX Foundry reusable test objects</description>
   
   	<properties>
 		<assembley-plugin.version>2.5.5</assembley-plugin.version>
 		<maven-compiler-plugin.version>3.6.1</maven-compiler-plugin.version>
-		<edgex-core-domain.version>0.2.0-SNAPSHOT</edgex-core-domain.version>
+		<edgex-core-domain.version>0.5.0-SNAPSHOT</edgex-core-domain.version>
 		<junit.version>4.12</junit.version>
 		<httpserver.version>20070405</httpserver.version>
 		<httpclient.version>4.5.2</httpclient.version>
